@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 30px 7%;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #101010;
+  color: #f5f0e8;
+}
+
+.light {
+  background: #faf8f4;
+  color: #222;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h2 {
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+header button {
+  padding: 10px 18px;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  margin: 85px auto 50px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  opacity: 0.65;
+}
+
+.hero h1 {
+  font-size: clamp(36px, 6vw, 65px);
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+.subtitle {
+  margin-top: 20px;
+  opacity: 0.65;
+}
+
+.generator {
+  max-width: 850px;
+  margin: auto;
+}
+
+.generator label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin: 25px 0 12px;
+}
+
+.generator input,
+.generator select {
+  width: 100%;
+  padding: 16px;
+  background: transparent;
+  border: 1px solid #77777755;
+  border-radius: 8px;
+  color: inherit;
+  font-size: 16px;
+  outline: none;
+}
+
+.dark select option {
+  background: #101010;
+}
+
+.light select option {
+  background: #faf8f4;
+}
+
+.preview {
+  margin: 35px 0 25px;
+  border: 1px solid #77777733;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.action-button,
+.sharing button {
+  border: none;
+  padding: 13px 25px;
+  border-radius: 30px;
+  background: #d8c6a5;
+  color: #171717;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.action-button.secondary {
+  background: transparent;
+  border: 1px solid #77777788;
+  color: inherit;
+}
+
+.sharing {
+  text-align: center;
+  margin: 90px auto 60px;
+}
+
+.sharing h2 {
+  margin-bottom: 15px;
+}
+
+.sharing p {
+  opacity: 0.65;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 12px;
+  padding: 30px;
+}
+
+.embed-container {
+  min-height: 100vh;
+  background: #101010;
+  color: #f5f0e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
